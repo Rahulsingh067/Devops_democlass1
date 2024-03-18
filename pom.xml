@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.foo</groupId>
   <artifactId>Dash-App</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
@@ -19,7 +19,7 @@
   </plugin>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
+    <artifactId>maven-jar-plugin</artifactId>
     <configuration>
       <archive>
         <manifest>
