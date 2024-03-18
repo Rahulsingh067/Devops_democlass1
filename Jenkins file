@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'junit qatestfile.java'
+                sh 'mvn clean test'
             }
         }
         stage('Deploy') {
